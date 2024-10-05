@@ -11,7 +11,6 @@ builder.Services.AddSwaggerGen();
 
 var smtpSetting = builder.Configuration.GetSection("SmtpSettings").Get<SmtpSettings>();
 
-//builder.Services.AddFluentEmail(smtpSetting!.User)
 builder.Services
            .AddFluentEmail(smtpSetting!.User)
            .AddRazorRenderer()
