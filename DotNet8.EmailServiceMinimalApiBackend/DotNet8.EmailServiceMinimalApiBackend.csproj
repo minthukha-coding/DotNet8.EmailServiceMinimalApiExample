@@ -14,8 +14,4 @@
 		<PackageReference Include="FluentEmail.Razor" Version="3.0.2" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <ProjectReference Include="..\DotNet8.EmailServiceMinimalApi.Models\DotNet8.EmailServiceMinimalApi.Models.csproj" />
-	</ItemGroup>
-
 </Project>

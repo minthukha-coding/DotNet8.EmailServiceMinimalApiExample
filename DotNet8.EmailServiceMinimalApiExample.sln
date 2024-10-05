@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.EmailServiceMinimal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.EmailServiceMinimalApiBackend.Modules", "DotNet8.EmailServiceMinimalApiBackend.Modules\DotNet8.EmailServiceMinimalApiBackend.Modules.csproj", "{D64A4BDF-2449-408D-88D5-7C2E360C945B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.EmailServiceMinimalApi.Database", "DotNet8.EmailServiceMinimalApi.Database\DotNet8.EmailServiceMinimalApi.Database.csproj", "{64E78E9D-E454-4BBB-B146-EBFCA99C00FC}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,10 +29,6 @@ Global
 		{D64A4BDF-2449-408D-88D5-7C2E360C945B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D64A4BDF-2449-408D-88D5-7C2E360C945B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D64A4BDF-2449-408D-88D5-7C2E360C945B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{64E78E9D-E454-4BBB-B146-EBFCA99C00FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{64E78E9D-E454-4BBB-B146-EBFCA99C00FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{64E78E9D-E454-4BBB-B146-EBFCA99C00FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{64E78E9D-E454-4BBB-B146-EBFCA99C00FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +38,5 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CC287109-8F9A-48A1-A796-91B69DD43774} = {835837AA-EEDF-404E-8D9D-BCFDFE5E4C99}
-		{64E78E9D-E454-4BBB-B146-EBFCA99C00FC} = {835837AA-EEDF-404E-8D9D-BCFDFE5E4C99}
 	EndGlobalSection
 EndGlobal

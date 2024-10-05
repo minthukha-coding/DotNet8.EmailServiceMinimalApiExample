@@ -33,4 +33,20 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.MapPost("/api/email/send", async (EmailRequestModel requestModel, IFluentEmail fluentEmail) =>
+{
+    var email = await fluentEmail
+        .To(requestModel.MailTo)
+        .Subject(requestModel.Subject)
+        .Body(requestModel.Body)
+        .SendAsync();
+
+    if (email.Successful)
+    {
+        return Results.Ok(MessageResponseModel.Ok);
+    }
+
+    return Results.Json(MessageResponseModel.Fail,statusCode: 500);
+});
+
 app.Run();
