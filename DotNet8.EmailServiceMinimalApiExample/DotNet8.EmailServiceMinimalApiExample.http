@@ -1,0 +1,6 @@
+@DotNet8.EmailServiceMinimalApiExample_HostAddress = http://localhost:5265
+
+GET {{DotNet8.EmailServiceMinimalApiExample_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
