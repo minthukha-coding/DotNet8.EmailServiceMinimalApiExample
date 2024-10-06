@@ -16,6 +16,7 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\DotNet8.EmailServiceMinimalApi.Models\DotNet8.EmailServiceMinimalApi.Models.csproj" />
+	  <ProjectReference Include="..\DotNet8.EmailServiceMinimalApiBackend.Modules\DotNet8.EmailServiceMinimalApiBackend.Modules.csproj" />
 	</ItemGroup>
 
 </Project>
