@@ -1,4 +1,5 @@
 ﻿using DotNet8.EmailServiceMinimalApiBackend.Endpoints;
+using System.Reflection;
 
 namespace MARB.Backend.Endpoints;
 

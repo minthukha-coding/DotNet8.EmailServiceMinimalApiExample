@@ -8,7 +8,6 @@ public class EmailService
     private EmailServiceRepository _repository;
     private readonly IFluentEmail _fluentEmail;
 
-
     public EmailService(EmailServiceRepository repository, IFluentEmail fluentEmail)
     {
         _repository = repository;

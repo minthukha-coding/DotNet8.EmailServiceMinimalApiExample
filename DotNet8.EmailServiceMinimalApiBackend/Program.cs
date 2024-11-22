@@ -1,6 +1,3 @@
-using System.Net.Mail;
-using System.Net;
-using FluentEmail.Core;
 using DotNet8.EmailServiceMinimalApiExample.Models;
 using DotNet8.EmailServiceMinimalApiBackend.Services;
 using MARB.Backend.Endpoints;
