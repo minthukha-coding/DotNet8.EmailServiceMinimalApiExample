@@ -1,7 +1,7 @@
 ﻿using DotNet8.EmailServiceMinimalApiExample.Models;
 using FluentEmail.Core;
 
-namespace DotNet8.EmailServiceMinimalApiBackend.Modules.Features.EmailService;
+namespace DotNet8.MinimalApiProjectStructureExample.Backend.Modules.Features.EmailService;
 
 public class EmailService
 {

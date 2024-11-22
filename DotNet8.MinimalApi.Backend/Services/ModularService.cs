@@ -1,6 +1,6 @@
-﻿using DotNet8.EmailServiceMinimalApiBackend.Modules.Features.EmailService;
+﻿using DotNet8.MinimalApiProjectStructureExample.Backend.Modules.Features.EmailService;
 
-namespace DotNet8.EmailServiceMinimalApiBackend.Services;
+namespace DotNet8.MinimalApiProjectStructureExampleBackend.Services;
 
 public static class ModularService
 {

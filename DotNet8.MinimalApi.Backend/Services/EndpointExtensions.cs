@@ -1,4 +1,4 @@
-﻿using DotNet8.EmailServiceMinimalApiBackend.Endpoints;
+﻿using DotNet8.MinimalApiProjectStructureExampleBackend.Endpoints;
 using System.Reflection;
 
 namespace MARB.Backend.Endpoints;

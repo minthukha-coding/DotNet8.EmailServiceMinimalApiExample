@@ -3,15 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8.EmailServiceMinimalApiBackend", "DotNet8.EmailServiceMinimalApiBackend\DotNet8.EmailServiceMinimalApiBackend.csproj", "{7BC91263-93EA-4C53-86DB-F79B354F2A08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8.MinimalApi.Backend", "DotNet8.MinimalApi.Backend\DotNet8.MinimalApi.Backend.csproj", "{7BC91263-93EA-4C53-86DB-F79B354F2A08}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D2569F32-34F6-450D-9083-842DAACE1995} = {D2569F32-34F6-450D-9083-842DAACE1995}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{835837AA-EEDF-404E-8D9D-BCFDFE5E4C99}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8.EmailServiceMinimalApi.Models", "DotNet8.EmailServiceMinimalApi.Models\DotNet8.EmailServiceMinimalApi.Models.csproj", "{CC287109-8F9A-48A1-A796-91B69DD43774}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8.MinimalApi.Modles", "DotNet8.MinimalApi.Modles\DotNet8.MinimalApi.Modles.csproj", "{CC287109-8F9A-48A1-A796-91B69DD43774}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8.EmailServiceMinimalApiBackend.Modules", "DotNet8.EmailServiceMinimalApiBackend.Modules\DotNet8.EmailServiceMinimalApiBackend.Modules.csproj", "{D64A4BDF-2449-408D-88D5-7C2E360C945B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8.MinimalApi.Backend.Modules", "DotNet8.MinimalApi.Backend.Modules\DotNet8.MinimalApi.Backend.Modules.csproj", "{D64A4BDF-2449-408D-88D5-7C2E360C945B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.EmailServiceMinimalApi.Databse", "DotNet8.EmailServiceMinimalApi.Databse\DotNet8.EmailServiceMinimalApi.Databse.csproj", "{D2569F32-34F6-450D-9083-842DAACE1995}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.MinimalApi.Databse", "DotNet8.MinimalApi.Databse\DotNet8.MinimalApi.Databse.csproj", "{D2569F32-34F6-450D-9083-842DAACE1995}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

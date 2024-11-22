@@ -4,10 +4,11 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <RootNamespace>DotNet8.MinimalApiProjectStructureExample.Backend.Modules</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DotNet8.EmailServiceMinimalApi.Models\DotNet8.EmailServiceMinimalApi.Models.csproj" />
+      <ProjectReference Include="..\DotNet8.MinimalApi.Modles\DotNet8.MinimalApi.Modles.csproj" />
     </ItemGroup>
 
     <ItemGroup>

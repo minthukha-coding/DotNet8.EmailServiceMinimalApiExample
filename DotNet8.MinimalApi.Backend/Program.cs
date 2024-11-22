@@ -1,5 +1,5 @@
 using DotNet8.EmailServiceMinimalApiExample.Models;
-using DotNet8.EmailServiceMinimalApiBackend.Services;
+using DotNet8.MinimalApiProjectStructureExampleBackend.Services;
 using MARB.Backend.Endpoints;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -1,4 +1,4 @@
-﻿namespace DotNet8.EmailServiceMinimalApiBackend.Endpoints;
+﻿namespace DotNet8.MinimalApiProjectStructureExampleBackend.Endpoints;
 
 public interface IEndpoint
 {

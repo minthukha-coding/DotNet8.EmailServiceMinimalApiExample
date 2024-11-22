@@ -4,6 +4,7 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
+		<RootNamespace>DotNet8.MinimalApiProjectStructureExampleBackend</RootNamespace>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -15,8 +16,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\DotNet8.EmailServiceMinimalApi.Models\DotNet8.EmailServiceMinimalApi.Models.csproj" />
-	  <ProjectReference Include="..\DotNet8.EmailServiceMinimalApiBackend.Modules\DotNet8.EmailServiceMinimalApiBackend.Modules.csproj" />
+	  <ProjectReference Include="..\DotNet8.MinimalApi.Modles\DotNet8.MinimalApi.Modles.csproj" />
+	  <ProjectReference Include="..\DotNet8.MinimalApi.Backend.Modules\DotNet8.MinimalApi.Backend.Modules.csproj" />
 	</ItemGroup>
 
 </Project>
