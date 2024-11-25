@@ -1,5 +1,6 @@
-﻿using DotNet8.EmailServiceMinimalApiExample.Models;
+using DotNet8.EmailServiceMinimalApiExample.Models;
 using FluentEmail.Core;
+
 
 namespace DotNet8.MinimalApiProjectStructureExample.Backend.Modules.Features.EmailService;
 
