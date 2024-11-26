@@ -8,15 +8,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DotNet8.MinimalApi.Modles\DotNet8.MinimalApi.Modles.csproj" />
+      <ProjectReference Include="..\DotNet8.MinimalApi.Databse\DotNet8.MinimalApi.Databse.csproj" />
+      <ProjectReference Include="..\DotNet8.MinimalApi.Models\DotNet8.MinimalApi.Models.csproj" />
     </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="FluentEmail.Core" Version="3.0.2" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Features\" />
     </ItemGroup>
 
 </Project>

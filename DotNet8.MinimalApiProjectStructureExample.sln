@@ -10,7 +10,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8.MinimalApi.Backend"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{835837AA-EEDF-404E-8D9D-BCFDFE5E4C99}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8.MinimalApi.Modles", "DotNet8.MinimalApi.Modles\DotNet8.MinimalApi.Modles.csproj", "{CC287109-8F9A-48A1-A796-91B69DD43774}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8.MinimalApi.Models", "DotNet8.MinimalApi.Models\DotNet8.MinimalApi.Models.csproj", "{CC287109-8F9A-48A1-A796-91B69DD43774}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8.MinimalApi.Backend.Modules", "DotNet8.MinimalApi.Backend.Modules\DotNet8.MinimalApi.Backend.Modules.csproj", "{D64A4BDF-2449-408D-88D5-7C2E360C945B}"
 EndProject

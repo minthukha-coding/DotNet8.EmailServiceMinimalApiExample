@@ -16,7 +16,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\DotNet8.MinimalApi.Modles\DotNet8.MinimalApi.Modles.csproj" />
+	  <ProjectReference Include="..\DotNet8.MinimalApi.Models\DotNet8.MinimalApi.Models.csproj" />
 	  <ProjectReference Include="..\DotNet8.MinimalApi.Backend.Modules\DotNet8.MinimalApi.Backend.Modules.csproj" />
 	</ItemGroup>
 

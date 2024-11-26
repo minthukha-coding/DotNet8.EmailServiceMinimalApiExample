@@ -1,4 +1,6 @@
-﻿namespace DotNet8.MinimalApiProjectStructureExampleBackend.Services;
+﻿using DotNet8.MinimalApiProjectStructureExample.Backend.Modules.Features.Blog;
+
+namespace DotNet8.MinimalApiProjectStructureExampleBackend.Services;
 
 public static class ModularService
 {
@@ -12,11 +14,13 @@ public static class ModularService
 
     private static WebApplicationBuilder AddBusinessLogicLayer(this WebApplicationBuilder builder)
     {
+        builder.Services.AddScoped<BlogService>();
         return builder;
     }
 
     private static WebApplicationBuilder AddDataAcccessLayer(this WebApplicationBuilder builder)
     {
+        builder.Services.AddScoped<BlogRepository>();
         return builder;
     }
   
