@@ -1,5 +1,4 @@
-﻿using DotNet8.MinimalApiProjectStructureExampleBackend.Endpoints;
-using System.Reflection;
+﻿namespace DotNet8.MinimalApiProjectStructureExampleBackend;
 
 public static class EndpointExtensions
 {

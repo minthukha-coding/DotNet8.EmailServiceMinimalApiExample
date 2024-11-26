@@ -16,6 +16,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8.MinimalApi.Backend.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.MinimalApi.Databse", "DotNet8.MinimalApi.Databse\DotNet8.MinimalApi.Databse.csproj", "{D2569F32-34F6-450D-9083-842DAACE1995}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.MinimalApi.Shared", "DotNet8.MinimalApi.Shared\DotNet8.MinimalApi.Shared.csproj", "{3030973B-F35E-45EA-9F01-A3280B6C5957}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{D2569F32-34F6-450D-9083-842DAACE1995}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2569F32-34F6-450D-9083-842DAACE1995}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2569F32-34F6-450D-9083-842DAACE1995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3030973B-F35E-45EA-9F01-A3280B6C5957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3030973B-F35E-45EA-9F01-A3280B6C5957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3030973B-F35E-45EA-9F01-A3280B6C5957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3030973B-F35E-45EA-9F01-A3280B6C5957}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CC287109-8F9A-48A1-A796-91B69DD43774} = {835837AA-EEDF-404E-8D9D-BCFDFE5E4C99}
 		{D2569F32-34F6-450D-9083-842DAACE1995} = {835837AA-EEDF-404E-8D9D-BCFDFE5E4C99}
+		{3030973B-F35E-45EA-9F01-A3280B6C5957} = {835837AA-EEDF-404E-8D9D-BCFDFE5E4C99}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BDDF53C-88C7-4D92-8232-8E6607C044D3}

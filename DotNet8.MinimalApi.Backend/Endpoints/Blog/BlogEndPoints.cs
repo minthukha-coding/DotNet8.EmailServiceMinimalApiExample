@@ -1,6 +1,6 @@
-﻿namespace DotNet8.MinimalApiProjectStructureExampleBackend.Endpoints.EmailService;
+﻿namespace DotNet8.MinimalApiProjectStructureExampleBackend.Endpoints.Blog;
 
-public class EmailServiceEndPoints : IEndpoint
+public class BlogEndPoints
 {
     public void MapEndpoint(IEndpointRouteBuilder app)
     {
@@ -10,5 +10,5 @@ public class EmailServiceEndPoints : IEndpoint
         //    {
         //        return await ClassList(reqModel, _service);
         //    });
-    }   
+    }
 }

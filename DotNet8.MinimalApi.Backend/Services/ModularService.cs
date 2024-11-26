@@ -1,6 +1,4 @@
-﻿using DotNet8.MinimalApiProjectStructureExample.Backend.Modules.Features.EmailService;
-
-namespace DotNet8.MinimalApiProjectStructureExampleBackend.Services;
+﻿namespace DotNet8.MinimalApiProjectStructureExampleBackend.Services;
 
 public static class ModularService
 {
@@ -14,13 +12,11 @@ public static class ModularService
 
     private static WebApplicationBuilder AddBusinessLogicLayer(this WebApplicationBuilder builder)
     {
-        builder.Services.AddScoped<EmailService>();
         return builder;
     }
 
     private static WebApplicationBuilder AddDataAcccessLayer(this WebApplicationBuilder builder)
     {
-        builder.Services.AddScoped<EmailServiceRepository>();
         return builder;
     }
   
