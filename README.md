@@ -1,1 +1,1 @@
-# DotNet8.EmailServiceMinimalApiExample
+# DotNet8.MinimalApiProjectStructureExample
