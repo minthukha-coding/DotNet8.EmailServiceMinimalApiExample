@@ -1,6 +1,4 @@
-﻿using DotNet8.EmailServiceMinimalApi.Models;
-using DotNet8.EmailServiceMinimalApi.Models.Blog;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace DotNet8.MinimalApiProjectStructureExample.Backend.Modules.Features.Blog;
 

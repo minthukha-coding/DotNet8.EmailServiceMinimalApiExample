@@ -1,10 +1,4 @@
-﻿using DotNet8.EmailServiceMinimalApi.Databse.Db;
-using DotNet8.EmailServiceMinimalApi.Models;
-using DotNet8.EmailServiceMinimalApi.Models.Blog;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-
-namespace DotNet8.MinimalApiProjectStructureExample.Backend.Modules.Features.Blog;
+﻿namespace DotNet8.MinimalApiProjectStructureExample.Backend.Modules.Features.Blog;
 
 public class BlogRepository
 {
