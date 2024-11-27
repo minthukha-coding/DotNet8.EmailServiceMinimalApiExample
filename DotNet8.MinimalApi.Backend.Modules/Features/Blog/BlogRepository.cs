@@ -57,6 +57,8 @@ public class BlogRepository
     {
         var item = await _db.TblBlogs
             .FirstOrDefaultAsync(x => x.BlogId == model.BlogId);
+
+        if (item is null) return Result<int>.FailureResult();
         
         item!.BlogTitle = model.BlogTitle;
         item.BlogAuthor = model.BlogTitle;
