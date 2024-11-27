@@ -1,17 +1,28 @@
-﻿using DotNet8.MinimalApiProjectStructureExample.Backend.Modules.Features.Blog;
-
-namespace DotNet8.MinimalApiProjectStructureExampleBackend.Services;
+﻿namespace DotNet8.MinimalApiProjectStructureExampleBackend.Services;
 
 public static class ModularService
 {
     public static WebApplicationBuilder AddModularService(this WebApplicationBuilder builder)
     {
         return builder
+            .AddDbContextService()
             .AddEmailService()
             .AddDataAcccessLayer()
             .AddBusinessLogicLayer();
     }
 
+    public static WebApplicationBuilder AddDbContextService(this WebApplicationBuilder builder)
+    {
+        builder.Services.AddDbContext<AppDbContext>(opt =>
+        {
+            var connectionString = builder.Configuration.GetSection("DbConnection").Value ??
+                                   throw new AggregateException("connectionString is null");
+            opt.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+            opt.UseSqlServer(connectionString);
+        },ServiceLifetime.Transient,ServiceLifetime.Transient);
+        return builder;
+    }
+    
     private static WebApplicationBuilder AddBusinessLogicLayer(this WebApplicationBuilder builder)
     {
         builder.Services.AddScoped<BlogService>();
