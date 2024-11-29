@@ -1,4 +1,4 @@
-﻿namespace DotNet8.MinimalApiProjectStructureExampleBackend.Services;
+namespace DotNet8.MinimalApiProjectStructureExampleBackend.Services;
 
 public static class ModularService
 {
@@ -9,7 +9,7 @@ public static class ModularService
             .AddEmailService()
             .AddDataAcccessLayer()
             .AddBusinessLogicLayer();
-    }
+    } 
 
     public static WebApplicationBuilder AddDbContextService(this WebApplicationBuilder builder)
     {
