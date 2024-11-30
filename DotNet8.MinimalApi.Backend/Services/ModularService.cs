@@ -1,4 +1,4 @@
-﻿using DotNet8.MinimalApiProjectStructureExample.Backend.Modules.Features.Auth;
+using DotNet8.MinimalApiProjectStructureExample.Backend.Modules.Features.Auth;
 
 namespace DotNet8.MinimalApiProjectStructureExampleBackend.Services;
 
@@ -11,7 +11,7 @@ public static class ModularService
             .AddEmailService()
             .AddDataAcccessLayer()
             .AddBusinessLogicLayer();
-    }
+    } 
 
     public static WebApplicationBuilder AddDbContextService(this WebApplicationBuilder builder)
     {
