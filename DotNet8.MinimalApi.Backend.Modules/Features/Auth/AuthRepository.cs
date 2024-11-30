@@ -15,7 +15,7 @@ public class AuthRepository
     {
         var item = await _db.TblUsers
             .FirstOrDefaultAsync(x => x.UserId == reqModel.UserId);
-        if (item is null) return Result<bool>.FailureResult("Duplicate User.");
+        if (item is not null) return Result<bool>.FailureResult("Duplicate User.");
         var user = new TblUser
         {
             UserName = reqModel.UserName,

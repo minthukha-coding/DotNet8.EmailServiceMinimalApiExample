@@ -1,6 +1,4 @@
-﻿using DotNet8.EmailServiceMinimalApi.Models;
-
-namespace DotNet8.MinimalApiProjectStructureExampleBackend.Endpoints.Blog;
+﻿namespace DotNet8.MinimalApiProjectStructureExampleBackend.Endpoints.Blog;
 
 public class BlogEndPoints : IEndpoint
 {

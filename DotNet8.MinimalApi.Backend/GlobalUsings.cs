@@ -2,6 +2,7 @@
 
 global using System.Reflection;
 global using DotNet8.EmailServiceMinimalApi.Databse.Db;
+global using DotNet8.EmailServiceMinimalApi.Models;
 global using DotNet8.EmailServiceMinimalApi.Models.Blog;
 global using DotNet8.MinimalApiProjectStructureExample.Backend.Modules.Features.Blog;
 global using DotNet8.MinimalApiProjectStructureExampleBackend;
