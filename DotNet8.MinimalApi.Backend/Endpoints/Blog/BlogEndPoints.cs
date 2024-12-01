@@ -4,12 +4,12 @@ public class BlogEndPoints : IEndpoint
 {
     public void MapEndpoint(IEndpointRouteBuilder app)
     {
+        app.MapPost("/api/blog/list",
+            async ([FromServices] BlogService _service) => await BlogList(_service));
+        
         app.MapPost("/api/blog/create",
             async (BlogModel reqModel,
                 [FromServices] BlogService _service) => await CreateBlog(reqModel, _service));
-        
-        app.MapPost("/api/blog/list",
-            async ([FromServices] BlogService _service) => await BlogList(_service));
         
         app.MapPost("/api/blog/update",
             async (BlogModel reqModel,
