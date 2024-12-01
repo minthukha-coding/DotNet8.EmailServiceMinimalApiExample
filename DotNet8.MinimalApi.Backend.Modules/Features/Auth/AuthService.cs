@@ -16,4 +16,10 @@ public class AuthService
         var model = await _authRepository.Register(reqModel);
         return model;
     }
+    
+    public async Task<Result<string>> SignIn(UserModel reqModel)
+    {
+        var model = await _authRepository.SignIn(reqModel);
+        return model;
+    }
 }

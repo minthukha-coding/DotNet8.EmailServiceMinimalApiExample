@@ -26,5 +26,27 @@ public class AuthRepository
         var result = await _db.SaveChangesAsync();
         return result == 0 ? Result<bool>.FailureResult() : Result<bool>.SuccessResult();
     }
-    
+
+    public async Task<Result<string>> SignIn(UserModel reqModel)
+    {
+        var item = await _db.TblUsers.FirstOrDefaultAsync(x =>
+            x.UserName == reqModel.UserName);
+        if (item == null)
+            return Result<string>.FailureResult("Invalid username");
+
+        if (item.FailPasswordCount >= 3)
+            return Result<string>.FailureResult("Your Account Is Lock");
+
+        bool checkPass = item.HashPassword == reqModel.HashPassword;
+        if (!checkPass)
+        {
+            item.FailPasswordCount += 1;
+            await _db.SaveChangesAsync();
+            return Result<string>.FailureResult("Invalid password.");
+        };
+
+        item.FailPasswordCount = 0;
+        await _db.SaveChangesAsync();
+        return checkPass == true ? Result<string>.SuccessResult() : Result<string>.FailureResult();
+    }
 }
