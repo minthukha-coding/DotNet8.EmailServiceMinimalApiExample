@@ -15,7 +15,8 @@ public class BlogRepository
         {
             BlogTitle = model.BlogTitle,
             BlogAuthor = model.BlogAuthor,
-            BlogContent = model.BlogContent
+            BlogContent = model.BlogContent,
+            UserId = model.CreatedUserId.ToString()
         };
         _db.TblBlogs.Add(item);
         int result = await _db.SaveChangesAsync();
@@ -33,6 +34,7 @@ public class BlogRepository
             BlogTitle = blog.BlogTitle,
             BlogAuthor = blog.BlogAuthor,
             BlogContent = blog.BlogContent!,
+            CreatedUserId = blog.UserId!
         }).ToList();
         return Result<List<BlogModel>>.SuccessResult(model);
     }
